@@ -1,0 +1,21 @@
+2021-03-10 23:00:24 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:00:25 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:00:25 error: StatusCode : 404, Message : Authentication token missing
+2021-03-10 23:00:36 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:00:36 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:00:36 error: StatusCode : 404, Message : Authentication token missing
+2021-03-10 23:02:47 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:02:47 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:02:47 error: StatusCode : 404, Message : Authentication token missing
+2021-03-10 23:10:22 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:10:22 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:10:22 error: StatusCode : 404, Message : Authentication token missing
+2021-03-10 23:12:03 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:12:03 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:12:03 error: StatusCode : 404, Message : Authentication token missing
+2021-03-10 23:21:35 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:21:35 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:21:35 error: StatusCode : 404, Message : Authentication token missing
+2021-03-10 23:22:58 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:22:58 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:22:58 error: StatusCode : 404, Message : Authentication token missing

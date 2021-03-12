@@ -1,0 +1,19 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/logs/info/.501908be19a5e84a809b18c8098d546c598f3a77-audit.json",
+    "files": [
+        {
+            "date": 1615237673088,
+            "name": "/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/logs/info/2021-03-08.log",
+            "hash": "30a58394c5d0ec609715af05279fc42a"
+        },
+        {
+            "date": 1615413622511,
+            "name": "/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/logs/info/2021-03-10.log",
+            "hash": "a215d3db93487cf9b0620b65ae0f26c1"
+        }
+    ]
+}

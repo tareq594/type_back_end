@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/tareqsanabra/Documents/nodejs/jordan_shipments/build/logs/error/.e17d71af26e8b8b70e66964ccfc382bdcee4378e-audit.json",
+    "files": [
+        {
+            "date": 1615413765112,
+            "name": "/Users/tareqsanabra/Documents/nodejs/jordan_shipments/build/logs/error/2021-03-10.error.log",
+            "hash": "70ebe33fce51905bf3a30401910c9eb8"
+        }
+    ]
+}

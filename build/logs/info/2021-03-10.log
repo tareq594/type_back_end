@@ -1,0 +1,25 @@
+2021-03-10 23:02:46 info: 🚀 App listening on the port 3000
+2021-03-10 23:02:46 error: 🔴 Unable to connect to the database: error: password authentication failed for user "test".
+2021-03-10 23:10:19 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:10:19 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:10:19 error: StatusCode : 404, Message : Authentication token missing
+2021-03-10 23:11:58 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:11:58 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:11:58 error: StatusCode : 404, Message : Authentication token missing
+2021-03-10 23:21:33 info: 🚀 App listening on the port 3000
+2021-03-10 23:21:33 error: 🔴 Unable to connect to the database: error: password authentication failed for user "root".
+2021-03-10 23:21:35 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:21:35 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:21:35 error: StatusCode : 404, Message : Authentication token missing
+2021-03-10 23:22:54 info: 🚀 App listening on the port 3000
+2021-03-10 23:22:57 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:22:57 error: StatusCode : 500, Message : No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+2021-03-10 23:22:57 error: StatusCode : 404, Message : Authentication token missing
+2021-03-10 23:24:28 info: ::1 - - [10/Mar/2021:22:24:28 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-10 23:24:28 info: ::1 - - [10/Mar/2021:22:24:28 +0000] "GET /api-docs/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-10 23:24:28 info: ::1 - - [10/Mar/2021:22:24:28 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-10 23:24:28 info: ::1 - - [10/Mar/2021:22:24:28 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-10 23:24:28 info: ::1 - - [10/Mar/2021:22:24:28 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-10 23:24:28 info: ::1 - - [10/Mar/2021:22:24:28 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-10 23:24:28 info: ::1 - - [10/Mar/2021:22:24:28 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-10 23:24:29 info: ::1 - - [10/Mar/2021:22:24:29 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
