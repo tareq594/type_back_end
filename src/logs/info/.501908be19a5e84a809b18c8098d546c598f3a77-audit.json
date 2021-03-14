@@ -14,6 +14,21 @@
             "date": 1615413622511,
             "name": "/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/logs/info/2021-03-10.log",
             "hash": "a215d3db93487cf9b0620b65ae0f26c1"
+        },
+        {
+            "date": 1615586213226,
+            "name": "/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/logs/info/2021-03-12.log",
+            "hash": "d7ad14771839792816137798cc15ecd5"
+        },
+        {
+            "date": 1615590008664,
+            "name": "/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/logs/info/2021-03-13.log",
+            "hash": "819a0e6327b357271da7f0ed846681a9"
+        },
+        {
+            "date": 1615677075719,
+            "name": "/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/logs/info/2021-03-14.log",
+            "hash": "1b10e6a24240f58de8d5fc803434fbcb"
         }
     ]
 }

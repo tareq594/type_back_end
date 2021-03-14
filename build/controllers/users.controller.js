@@ -1,12 +1,22 @@
 "use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const users_service_1 = __importDefault(require("../services/users.service"));
-class UsersController {
-    constructor() {
-        this.userService = new users_service_1.default();
+const typedi_1 = require("typedi");
+let UsersController = class UsersController {
+    constructor(userService) {
+        this.userService = userService;
         this.getUsers = async (req, res, next) => {
             try {
                 const findAllUsersData = await this.userService.findAllUser();
@@ -16,48 +26,11 @@ class UsersController {
                 next(error);
             }
         };
-        this.getUserById = async (req, res, next) => {
-            try {
-                const userId = Number(req.params.id);
-                const findOneUserData = await this.userService.findUserById(userId);
-                res.status(200).json({ data: findOneUserData, message: 'findOne' });
-            }
-            catch (error) {
-                next(error);
-            }
-        };
-        this.createUser = async (req, res, next) => {
-            try {
-                const userData = req.body;
-                const createUserData = await this.userService.createUser(userData);
-                res.status(201).json({ data: createUserData, message: 'created' });
-            }
-            catch (error) {
-                next(error);
-            }
-        };
-        this.updateUser = async (req, res, next) => {
-            try {
-                const userId = Number(req.params.id);
-                const userData = req.body;
-                const updateUserData = await this.userService.updateUser(userId, userData);
-                res.status(200).json({ data: updateUserData, message: 'updated' });
-            }
-            catch (error) {
-                next(error);
-            }
-        };
-        this.deleteUser = async (req, res, next) => {
-            try {
-                const userId = Number(req.params.id);
-                const deleteUserData = await this.userService.deleteUser(userId);
-                res.status(200).json({ data: deleteUserData, message: 'deleted' });
-            }
-            catch (error) {
-                next(error);
-            }
-        };
     }
-}
+};
+UsersController = __decorate([
+    typedi_1.Service(),
+    __metadata("design:paramtypes", [users_service_1.default])
+], UsersController);
 exports.default = UsersController;
 //# sourceMappingURL=users.controller.js.map

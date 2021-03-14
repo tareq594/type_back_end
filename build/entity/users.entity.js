@@ -9,9 +9,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UserEntity = void 0;
+exports.UserModel = exports.UserEntity = void 0;
 const typeorm_1 = require("typeorm");
 const class_validator_1 = require("class-validator");
+const typeorm_2 = require("typeorm");
+const typedi_1 = require("typedi");
 let UserEntity = class UserEntity {
 };
 __decorate([
@@ -43,4 +45,14 @@ UserEntity = __decorate([
     typeorm_1.Unique(['email'])
 ], UserEntity);
 exports.UserEntity = UserEntity;
+let UserModel = class UserModel {
+    constructor() {
+        this.users = UserEntity;
+        this.db = typeorm_2.getRepository(this.users);
+    }
+};
+UserModel = __decorate([
+    typedi_1.Service()
+], UserModel);
+exports.UserModel = UserModel;
 //# sourceMappingURL=users.entity.js.map

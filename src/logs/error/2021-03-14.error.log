@@ -1,0 +1,96 @@
+2021-03-14 00:11:56 error: uncaughtException: Connection "default" was not found.
+ConnectionNotFoundError: Connection "default" was not found.
+    at new ConnectionNotFoundError (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/error/ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/connection/ConnectionManager.ts:40:19)
+    at Object.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/index.ts:284:35)
+    at new UserModel (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/entity/users.entity.ts:31:15)
+    at ContainerInstance.getServiceValue (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:284:15)
+    at ContainerInstance.get (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:54:36)
+    at /Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:334:21
+    at Array.map (<anonymous>)
+    at ContainerInstance.initializeParams (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:314:23)
+    at ContainerInstance.getServiceValue (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:277:27)
+2021-03-14 00:12:25 error: uncaughtException: Connection "default" was not found.
+ConnectionNotFoundError: Connection "default" was not found.
+    at new ConnectionNotFoundError (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/error/ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/connection/ConnectionManager.ts:40:19)
+    at Object.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/index.ts:284:35)
+    at new UserModel (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/entity/users.entity.ts:31:15)
+    at ContainerInstance.getServiceValue (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:284:15)
+    at ContainerInstance.get (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:54:36)
+    at /Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:334:21
+    at Array.map (<anonymous>)
+    at ContainerInstance.initializeParams (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:314:23)
+    at ContainerInstance.getServiceValue (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:277:27)
+2021-03-14 00:13:57 error: uncaughtException: dbConnection is not defined
+ReferenceError: dbConnection is not defined
+    at Object.<anonymous> (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/server.ts:14:18)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module.m._compile (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at main (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/ts-node/src/bin.ts:198:14)
+    at Object.<anonymous> (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/ts-node/src/bin.ts:288:3)
+2021-03-14 00:14:05 error: uncaughtException: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+RepositoryNotFoundError: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+    at new RepositoryNotFoundError (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/error/RepositoryNotFoundError.ts:11:9)
+    at EntityManager.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/entity-manager/EntityManager.ts:913:19)
+    at Connection.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/connection/Connection.ts:346:29)
+    at Object.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/index.ts:284:55)
+    at new UserModel (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/entity/users.entity.ts:31:15)
+    at ContainerInstance.getServiceValue (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:284:15)
+    at ContainerInstance.get (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:54:36)
+    at /Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:334:21
+    at Array.map (<anonymous>)
+    at ContainerInstance.initializeParams (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:314:23)
+2021-03-14 00:14:08 error: uncaughtException: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+RepositoryNotFoundError: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+    at new RepositoryNotFoundError (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/error/RepositoryNotFoundError.ts:11:9)
+    at EntityManager.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/entity-manager/EntityManager.ts:913:19)
+    at Connection.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/connection/Connection.ts:346:29)
+    at Object.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/index.ts:284:55)
+    at new UserModel (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/entity/users.entity.ts:31:15)
+    at ContainerInstance.getServiceValue (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:284:15)
+    at ContainerInstance.get (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:54:36)
+    at /Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:334:21
+    at Array.map (<anonymous>)
+    at ContainerInstance.initializeParams (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:314:23)
+2021-03-14 00:14:18 error: uncaughtException: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+RepositoryNotFoundError: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+    at new RepositoryNotFoundError (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/error/RepositoryNotFoundError.ts:11:9)
+    at EntityManager.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/entity-manager/EntityManager.ts:913:19)
+    at Connection.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/connection/Connection.ts:346:29)
+    at Object.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/index.ts:284:55)
+    at new UserModel (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/entity/users.entity.ts:31:15)
+    at ContainerInstance.getServiceValue (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:284:15)
+    at ContainerInstance.get (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:54:36)
+    at /Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:334:21
+    at Array.map (<anonymous>)
+    at ContainerInstance.initializeParams (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:314:23)
+2021-03-14 00:14:42 error: uncaughtException: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+RepositoryNotFoundError: No repository for "UserEntity" was found. Looks like this entity is not registered in current "default" connection?
+    at new RepositoryNotFoundError (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/error/RepositoryNotFoundError.ts:11:9)
+    at EntityManager.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/entity-manager/EntityManager.ts:913:19)
+    at Connection.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/connection/Connection.ts:346:29)
+    at Object.getRepository (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/index.ts:284:55)
+    at new UserModel (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/entity/users.entity.ts:31:15)
+    at ContainerInstance.getServiceValue (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:284:15)
+    at ContainerInstance.get (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:54:36)
+    at /Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:334:21
+    at Array.map (<anonymous>)
+    at ContainerInstance.initializeParams (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/src/container-instance.class.ts:314:23)
+2021-03-14 00:14:50 error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/src/server.ts:25:1)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module.m._compile (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/ts-node/src/index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/ts-node/src/index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at main (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/ts-node/src/bin.ts:198:14)
+    at Object.<anonymous> (/Users/tareqsanabra/Documents/nodejs/jordan_shipments/node_modules/ts-node/src/bin.ts:288:3)

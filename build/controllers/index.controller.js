@@ -4,7 +4,7 @@ class IndexController {
     constructor() {
         this.index = (req, res, next) => {
             try {
-                res.sendStatus(200);
+                res.send(200);
             }
             catch (error) {
                 next(error);

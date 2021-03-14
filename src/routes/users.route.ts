@@ -3,11 +3,13 @@ import UsersController from '../controllers/users.controller';
 import { CreateUserDto } from '../dtos/users.dto';
 import Route from '../interfaces/routes.interface';
 import validationMiddleware from '../middlewares/validation.middleware';
+import { Container, Service } from 'typedi';
 
+@Service()
 class UsersRoute implements Route {
   public path = '/users';
   public router = Router();
-  public usersController = new UsersController();
+  public usersController = Container.get(UsersController);
 
   constructor() {
     this.initializeRoutes();

@@ -13,20 +13,28 @@ import { dbConnection } from './database';
 import Routes from './interfaces/routes.interface';
 import errorMiddleware from './middlewares/error.middleware';
 import { logger, stream } from './utils/logger';
+import { Container } from 'typeorm-typedi-extensions';
+import { useContainer as typeOrmUseContainer } from 'typeorm';
 
 class App {
   public app: express.Application;
   public port: string | number;
   public env: string;
-
+  private routes: Routes[];
   constructor(routes: Routes[]) {
     this.app = express();
     this.port = process.env.PORT || 3000;
     this.env = process.env.NODE_ENV || 'development';
+    this.routes = routes;
+    this.init();
+  }
 
-    this.connectToDatabase();
+  private async init() {
+    // await this.connectToDatabase();
+    this.initializeDependencyInjection();
+    // todo connect to redis or cache
     this.initializeMiddlewares();
-    this.initializeRoutes(routes);
+    this.initializeRoutes(this.routes);
     this.initializeSwagger();
     this.initializeErrorHandling();
   }
@@ -54,7 +62,8 @@ class App {
   private initializeMiddlewares() {
     if (this.env === 'production') {
       this.app.use(morgan('combined', { stream }));
-      this.app.use(cors({ origin: 'your.domain.com', credentials: true }));
+
+      this.app.use(cors({ origin: 'jordanshipments.cyborgstech.com', credentials: true }));
     } else if (this.env === 'development') {
       this.app.use(morgan('dev', { stream }));
       this.app.use(cors({ origin: true, credentials: true }));
@@ -92,6 +101,10 @@ class App {
 
   private initializeErrorHandling() {
     this.app.use(errorMiddleware);
+  }
+
+  private initializeDependencyInjection() {
+    typeOrmUseContainer(Container);
   }
 }
 
